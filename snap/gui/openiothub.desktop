@@ -2,7 +2,7 @@
 Name=mdns
 Comment=mdns tools with UI
 Exec=mdns
-Icon=${SNAP}/meta/gui/openiothub.png
+Icon=${SNAP}/meta/gui/mdns.png
 Terminal=false
 Type=Application
 Categories=Network;
