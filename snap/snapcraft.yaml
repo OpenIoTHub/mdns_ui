@@ -1,0 +1,29 @@
+name: mdns
+version: 1.0.0
+summary: mdns tools
+description: mdns tools with UI
+
+confinement: strict
+base: core22
+grade: stable
+
+#slots:
+#  dbus-openiothub: # adjust accordingly to your app name
+#    interface: dbus
+#    bus: session
+#    name: org.bar.super_cool_app # adjust accordingly to your app name and
+
+apps:
+  openiothub:
+    command: mdns
+    extensions: [gnome]
+    plugs:
+      - network
+      - network-bind
+#    slots:
+#      - dbus-openiothub
+parts:
+  mdns:
+    source: .
+    plugin: flutter
+    flutter-target: lib/main.dart
