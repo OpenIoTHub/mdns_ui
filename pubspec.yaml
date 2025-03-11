@@ -1,6 +1,8 @@
-name: bonsoir_example
-description: Demonstrates how to use the bonsoir plugin.
+name: mdns
+description: mdns tools with UI
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
