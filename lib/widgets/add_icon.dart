@@ -1,9 +1,9 @@
 import 'package:bonsoir/bonsoir.dart';
-import 'package:bonsoir_example/dialogs/broadcast_prompt.dart';
-import 'package:bonsoir_example/dialogs/discovery_prompt.dart';
-import 'package:bonsoir_example/models/broadcast.dart';
-import 'package:bonsoir_example/models/discovery.dart';
-import 'package:bonsoir_example/pages/pages.dart';
+import 'package:mdns/dialogs/broadcast_prompt.dart';
+import 'package:mdns/dialogs/discovery_prompt.dart';
+import 'package:mdns/models/broadcast.dart';
+import 'package:mdns/models/discovery.dart';
+import 'package:mdns/pages/pages.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

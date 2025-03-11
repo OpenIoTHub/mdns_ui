@@ -1,6 +1,6 @@
 import 'package:bonsoir/bonsoir.dart';
-import 'package:bonsoir_example/models/app_service.dart';
-import 'package:bonsoir_example/models/model.dart';
+import 'package:mdns/models/app_service.dart';
+import 'package:mdns/models/model.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 /// The model provider.

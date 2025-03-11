@@ -1,5 +1,5 @@
 import 'package:bonsoir/bonsoir.dart';
-import 'package:bonsoir_example/models/app_service.dart';
+import 'package:mdns/models/app_service.dart';
 import 'package:flutter/material.dart';
 
 /// A dialog that allows to prompt for a service to broadcast on the network.

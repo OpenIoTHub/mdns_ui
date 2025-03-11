@@ -1,6 +1,6 @@
 import 'package:bonsoir/bonsoir.dart';
-import 'package:bonsoir_example/models/discovery.dart';
-import 'package:bonsoir_example/widgets/service_list.dart';
+import 'package:mdns/models/discovery.dart';
+import 'package:mdns/widgets/service_list.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

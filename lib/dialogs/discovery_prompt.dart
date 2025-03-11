@@ -1,4 +1,4 @@
-import 'package:bonsoir_example/models/app_service.dart';
+import 'package:mdns/models/app_service.dart';
 import 'package:flutter/material.dart';
 
 /// A dialog that allows to prompt for a type to discover on the network.

@@ -1,8 +1,8 @@
-import 'package:bonsoir_example/models/app_service.dart';
-import 'package:bonsoir_example/pages/current_page.dart';
-import 'package:bonsoir_example/widgets/add_icon.dart';
-import 'package:bonsoir_example/widgets/bottom_bar.dart';
-import 'package:bonsoir_example/widgets/eager_initialization.dart';
+import 'package:mdns/models/app_service.dart';
+import 'package:mdns/pages/current_page.dart';
+import 'package:mdns/widgets/add_icon.dart';
+import 'package:mdns/widgets/bottom_bar.dart';
+import 'package:mdns/widgets/eager_initialization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

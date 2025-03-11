@@ -1,5 +1,5 @@
-import 'package:bonsoir_example/models/broadcast.dart';
-import 'package:bonsoir_example/models/discovery.dart';
+import 'package:mdns/models/broadcast.dart';
+import 'package:mdns/models/discovery.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
