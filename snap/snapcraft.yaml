@@ -4,7 +4,7 @@ summary: mdns tools
 description: mdns tools with UI
 
 confinement: strict
-base: core22
+base: core24
 grade: stable
 
 #slots:
@@ -28,7 +28,7 @@ apps:
       - network-bind
       - avahi-observe
       - avahi-control
-      - dbus
+#      - dbus
 #      - avahi-svc
 parts:
   mdns:
