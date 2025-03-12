@@ -17,7 +17,7 @@ plugs:
   avahi-svc:  # name that is used with 'snap connect' on plugs side
     bus: system
     interface: dbus
-    name: org.freedesktop.Avahi
+    name: org.freedesktop.Avahi.Server2
 
 apps:
   mdns:
