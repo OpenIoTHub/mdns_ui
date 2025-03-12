@@ -14,46 +14,10 @@ grade: stable
 #    name: org.bar.super_cool_app # adjust accordingly to your app name and
 
 plugs:
-  avahi-svc1:  # name that is used with 'snap connect' on plugs side
+  avahi-svc:  # name that is used with 'snap connect' on plugs side
     bus: system
     interface: dbus
     name: org.freedesktop.Avahi
-  avahi-svc2:  # name that is used with 'snap connect' on plugs side
-    bus: system
-    interface: dbus
-    name: org.freedesktop.Avahi.AddressResolver
-  avahi-svc3: # name that is used with 'snap connect' on plugs side
-    bus: system
-    interface: dbus
-    name: org.freedesktop.Avahi.DomainBrowser
-  avahi-svc4:  # name that is used with 'snap connect' on plugs side
-    bus: system
-    interface: dbus
-    name: org.freedesktop.Avahi.EntryGroup
-  avahi-svc5:  # name that is used with 'snap connect' on plugs side
-    bus: system
-    interface: dbus
-    name: org.freedesktop.Avahi.HostNameResolver
-  avahi-svc6:  # name that is used with 'snap connect' on plugs side
-    bus: system
-    interface: dbus
-    name: org.freedesktop.Avahi.RecordBrowser
-  avahi-svc7:  # name that is used with 'snap connect' on plugs side
-    bus: system
-    interface: dbus
-    name: org.freedesktop.Avahi.Server
-  avahi-svc8:  # name that is used with 'snap connect' on plugs side
-    bus: system
-    interface: dbus
-    name: org.freedesktop.Avahi.ServiceBrowser
-  avahi-svc9:  # name that is used with 'snap connect' on plugs side
-    bus: system
-    interface: dbus
-    name: org.freedesktop.Avahi.ServiceResolver
-  avahi-svc10:  # name that is used with 'snap connect' on plugs side
-    bus: system
-    interface: dbus
-    name: org.freedesktop.Avahi.ServiceTypeBrowser
 
 apps:
   mdns:
@@ -65,16 +29,7 @@ apps:
       - avahi-observe
       - avahi-control
       - dbus
-      - avahi-svc1
-      - avahi-svc2
-      - avahi-svc3
-      - avahi-svc4
-      - avahi-svc5
-      - avahi-svc6
-      - avahi-svc7
-      - avahi-svc8
-      - avahi-svc9
-      - avahi-svc10
+      - avahi-svc
 parts:
   mdns:
     source: .
