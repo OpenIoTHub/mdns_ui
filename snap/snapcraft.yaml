@@ -13,11 +13,11 @@ grade: stable
 #    bus: session
 #    name: org.bar.super_cool_app # adjust accordingly to your app name and
 
-#plugs:
-#  avahi-svc:  # name that is used with 'snap connect' on plugs side
-#    bus: system
-#    interface: dbus
-#    name: org.freedesktop.Avahi.Server2
+plugs:
+  avahi-svc:  # name that is used with 'snap connect' on plugs side
+    bus: system
+    interface: dbus
+    name: org.freedesktop.Avahi
 
 apps:
   mdns:
@@ -29,7 +29,7 @@ apps:
       - avahi-observe
       - avahi-control
 #      - dbus
-#      - avahi-svc
+      - avahi-svc
 parts:
   mdns:
     source: .
