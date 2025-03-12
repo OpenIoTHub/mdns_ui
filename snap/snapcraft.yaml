@@ -14,17 +14,20 @@ grade: stable
 #    name: org.bar.super_cool_app # adjust accordingly to your app name and
 
 apps:
-  openiothub:
+  mdns:
     command: mdns
     extensions: [gnome]
     plugs:
       - network
       - network-bind
-    slots:
       - avahi-observe
       - avahi-control
+      - dbus
 parts:
   mdns:
     source: .
     plugin: flutter
     flutter-target: lib/main.dart
+architectures:
+  - build-on: [ amd64 ]
+  - build-on: [ arm64 ]
