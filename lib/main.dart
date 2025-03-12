@@ -32,7 +32,7 @@ class BonsoirExampleMainWidget extends StatelessWidget {
         child: MaterialApp(
           home: Scaffold(
             appBar: AppBar(
-              title: const Text('Bonsoir demo'),
+              title: const Text('mdns'),
               actions: const [AddIcon()],
               centerTitle: false,
             ),
