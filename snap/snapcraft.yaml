@@ -7,11 +7,11 @@ confinement: strict
 base: core22
 grade: stable
 
-#slots:
-#  dbus-openiothub: # adjust accordingly to your app name
-#    interface: dbus
-#    bus: session
-#    name: org.bar.super_cool_app # adjust accordingly to your app name and
+slots:
+  dbus-avahi: # adjust accordingly to your app name
+    interface: dbus
+    bus: session
+    name: org.bar.super_cool_app # adjust accordingly to your app name and
 
 apps:
   openiothub:
@@ -20,8 +20,8 @@ apps:
     plugs:
       - network
       - network-bind
-#    slots:
-#      - dbus-openiothub
+    slots:
+      - dbus-avahi
 parts:
   mdns:
     source: .
