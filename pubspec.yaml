@@ -11,9 +11,15 @@ dependencies:
   flutter:
     sdk: flutter
   bonsoir: ^5.1.11
+  bonsoir_linux:
+    path: ./bonsoir_linux
   flutter_riverpod: ^2.4.6
   device_info_plus: ^9.1.0
   uuid: ^4.2.1
+
+dependency_overrides:
+  bonsoir_linux:
+    path: ./bonsoir_linux
 
 dev_dependencies:
   flutter_lints: ^3.0.1
